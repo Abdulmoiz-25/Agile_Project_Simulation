@@ -8,23 +8,6 @@ The overall goal is to provide **data-driven recommendations** for efficient pro
 
 ---
 
-### 📁 Repository Structure
-
-The project structure is organized to clearly separate code, data, and visualizations.
-Agile_Project_Simulation/
-│
-├── Agile_Simulation.ipynb         # Main Jupyter Notebook performing all simulations and analysis
-├── sprint_results.csv             # Detailed sprint-by-sprint simulation outputs
-├── monte_carlo_completion.csv     # Results of all Monte Carlo simulation runs
-├── sensitivity_analysis.csv       # Data from sensitivity analysis experiments
-├── charts/                        # Visualization charts (burndown, velocity trends, histograms, flow diagram, etc.)
-│ ├── burndown.png                 # Burndown chart visualizing remaining work
-│ ├── velocity_trend.png           # Trend of team velocity across sprints
-│ ├── earned_value.png             # Earned Value Analysis plot
-│ ├── completion_histogram.png     # Distribution of project completion times from Monte Carlo
-└── README.md                      # Project description and usage instructions
-
----
 ### 🔧 Requirements & Setup
 
 This project is built using **Python 3.x** and relies on standard data-science libraries.
